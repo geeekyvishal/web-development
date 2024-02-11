@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<body>
+    <form>
+        <select>
+            <option> 1 </option>
+            <option> 2 </option>
+            <option selected> 3 </option>
+            <option> 4 </option>
+            <option> 5 </option>
+        </select>
+        <hr>
+        <select value="2" multiple>
+            <option> 1 </option>
+            <option> 2 </option>
+            <option selected> 3 </option>
+            <option> 4 </option>
+            <option> 5 </option>
+        </select>
+        <hr>
+        <select>
+            <optgroup label="car">
+                <option>bmw</option>
+                <option>tata</option>
+                <option>swift</option>
+            </optgroup>
+            <optgroup label="sports">
+                <option>cricket</option>
+                <option>hockey</option>
+                <option>kabbadi</option>
+            </optgroup>
+        </select>
+        <hr>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> other
+        <hr>
+        <input type="checkbox" name="sports"> football
+        <input type="checkbox" name="sports"> hockey
+        <input type="checkbox" name="sports"> cricket
+        <hr>
+        <input type="text" list="search">
+        <datalist id="search">
+            <option>apple</option>
+            <option>mango</option>
+            <option>oranges</option>
+            <option>kivy</option>
+        </datalist>
+        <input type="submit" value="search">
+        <hr>
+        <input type="text" list="search" autofocus>
+        <datalist id="search">
+            <option value="apple">
+            <option value="mango">
+            <option value="oranges">
+            <option value="kivy">
+        </datalist>
+        <input type="submit" value="search">
+    </form>
+</body>
+</head>
+
+</html>
